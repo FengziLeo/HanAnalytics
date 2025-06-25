@@ -49,6 +49,8 @@ AnalyticsDataset
 ```js
 // 在网站底部插入以下代码即可集成网站分析仪表板
 <script defer src="https://xxxxxx.pages.dev/tracker.min.js" data-website-id="自定义网站唯一标识"></script>
+// 如果需要在统计页面显示访问的路径以及参数，如“/path/?hello=word”,则在网站底部插入以下代码
+<script defer src="https://xxxxxx.pages.dev/tracker-all.min.js" data-website-id="自定义网站唯一标识"></script>
 ```
 
 ### 数据问题

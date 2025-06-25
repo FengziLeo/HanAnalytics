@@ -1,6 +1,6 @@
 ((window) => {
     const { location, document, navigator } = window;
-    const { search } = location;
+    const { hostname: host, pathname，search} = location;
     const { currentScript, referrer } = document;
     const currentRef = !referrer.includes(location.host) ? referrer : "";
     if (!currentScript || navigator.userAgent.indexOf("Electron") > 0) return;

@@ -63,6 +63,7 @@
                 method: "POST",
                 body: JSON.stringify({
                     website,
+                    host,
                     path: encode(location.pathname + location.search),
                     referrer: encode(currentRef),
                     visitor,

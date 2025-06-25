@@ -64,7 +64,7 @@
         body: JSON.stringify({
           website,
           host,
-          path: encode(pathname + location.search),
+          path: encode(pathname),
           referrer: encode(currentRef),
           visitor,
           visit
